@@ -1,0 +1,52 @@
+.home1{
+background-image: url("../../public/background3.png");
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+max-width: 100%;
+height: 1000px;
+}
+
+
+.info{
+    margin-left: 200px;
+    color: white;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.infoline1{
+font-size: 3.0rem;
+margin-bottom: .2rem;
+}
+.infoline2{
+    font-size: 2.0rem;
+    margin-top: 0rem;
+    margin-bottom: .2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.infoline3{
+    font-size: 5.0rem;
+    margin-top: 0rem;
+    margin-bottom: .2rem;
+    color: #50F8FE;
+}
+.infoline4{
+    font-size: 3.0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.infoline5{
+    font-size: 3.0rem;
+    color: #50F8FE;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+

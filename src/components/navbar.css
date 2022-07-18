@@ -1,0 +1,68 @@
+.portname{
+font-size: 1.8rem;
+font-family: 'Poppins', sans-serif;
+letter-spacing: .15rem;
+}
+
+.navbar{
+    height: 7vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.navlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.navtoggler div{
+    width: 2.0rem;
+    height: .25rem;
+    margin: 0.1rem;
+    background: darkred;
+}
+
+.navtoggler{
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width:768px)
+{
+    .navtoggler{
+        display: block;
+    }
+    .navlist{
+        position: fixed;
+        top: 6vh;
+        right: 0;
+        width: 40%;
+        height: 93vh;
+        background: black;
+        flex-direction: column ;
+        justify-content: start;
+        transform: translateX(100%);
+        transition: 0.3s ease-in;
+    }
+}
+
+.nav__active{
+    transform: translateX(0);
+}
